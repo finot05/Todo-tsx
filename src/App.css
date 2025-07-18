@@ -23,44 +23,44 @@ input {
   display: flex;
   justify-content: space-between; /* Space between text/input and buttons */
   align-items: center; /* Center items vertically */
-  background-color: white; /* White background for todo items */
-  border: 1px solid #e2e8f0; /* Light border for distinction */
-  padding: 10px; /* Padding inside the todo item */
-  margin: 10px 0; /* Margin between todo items */
-  border-radius: 8px; /* Rounded corners */
+  background-color: white;
+  border: 1px solid #e2e8f0;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
 }
 
 .todo-item input {
   flex: 1; /* Allow input to take available space */
-  margin-right: 8px; /* Space between input and buttons */
+  margin-right: 8px; 
 }
 
 button {
-  border: none; /* Remove default button border */
-  background: none; /* Remove default button background */
-  cursor: pointer; /* Pointer cursor on hover */
-  font-size: 16px; /* Font size for buttons */
-  margin-left: 5px; /* Space between buttons */
+  border: none;
+  background: none; 
+  cursor: pointer; 
+  font-size: 16px;
+  margin-left: 5px; 
 }
 
 .edit-btn {
-  color: #4caf4fe5; /* Green color for edit button */
+  color: #4caf4fe5; 
 }
 
 .delete-btn {
-  color: #e53835c7; /* Red color for delete button */
+  color: #e53835c7;
 }
 
 .save-btn {
-  color: #2196f3; /* Blue color for save button */
+  color: #2196f3;
 }
 
 .cancel-btn {
-  color: #757575; /* Gray color for cancel button */
+  color: #757575; 
 }
 
 button:hover {
-  opacity: 0.8; /* Slightly transparent on hover for feedback */
+  opacity: 0.8; 
 }
 .todo-item {
   display: flex;
@@ -83,7 +83,7 @@ button:hover {
   align-items: center;
 }
 #addbtn {
-  background-color: rgba(0, 0, 255, 0.598); /* green */
+  background-color: rgba(0, 0, 255, 0.598); 
   color: white;
   padding: 10px 16px;
   border-radius: 5px;
