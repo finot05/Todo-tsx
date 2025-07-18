@@ -19,13 +19,13 @@ This app allows users to **add**, **edit**, and **delete** tasks.
 ---
 ## Preview
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/778d9dca-c228-490b-9abf-c23595836571" />
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/778d9dca-c228-490b-9abf-c23595836571" />
 <p>This shows how tasks are added and listed</p>
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/c4bcc766-a500-4480-bae4-2109a338899e" />
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/c4bcc766-a500-4480-bae4-2109a338899e" />
 <p>The task is being edited to change the name.</p>
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/95339933-4419-4643-85bc-55d4af73845e" />
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/95339933-4419-4643-85bc-55d4af73845e" />
 <p>The “Attend a meeting” task has been deleted</p>
 
 ## Getting Started
