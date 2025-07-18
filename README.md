@@ -1,46 +1,48 @@
-# Getting Started with Create React App
+# Todo List App (React + TypeScript)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+A simple Todo List application built with **React** and **TypeScript**.  
+This app allows users to **add**, **edit**, and **delete** tasks.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Features
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Add new tasks
+- Edit existing tasks
+- Delete tasks with confirmation
+- Responsive and clean UI
+- Uses React Hooks (`useState`)
+- Styled with CSS
 
-### `npm test`
+---
+## Preview
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/778d9dca-c228-490b-9abf-c23595836571" />
+<p>This shows how tasks are added and listed</p>
 
-### `npm run build`
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/c4bcc766-a500-4480-bae4-2109a338899e" />
+<p>The task is being edited to change the name.</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/95339933-4419-4643-85bc-55d4af73845e" />
+<p>The “Attend a meeting” task has been deleted</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+- Node.js installed on your machine
+- npm or yarn package manager
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Installation 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repo:
+git clone https://github.com/your-username/todo-list-app.git
+cd todo-list-app
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+2. Install dependencies:
+npm install
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Run the app:
+npm start
