@@ -1,38 +1,91 @@
 .App {
   text-align: center;
+  margin-top: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f4f6;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.todo-item {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between; /* Space between text/input and buttons */
+  align-items: center; /* Center items vertically */
+  background-color: white; /* White background for todo items */
+  border: 1px solid #e2e8f0; /* Light border for distinction */
+  padding: 10px; /* Padding inside the todo item */
+  margin: 10px 0; /* Margin between todo items */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.todo-item input {
+  flex: 1; /* Allow input to take available space */
+  margin-right: 8px; /* Space between input and buttons */
+}
+
+button {
+  border: none; /* Remove default button border */
+  background: none; /* Remove default button background */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size for buttons */
+  margin-left: 5px; /* Space between buttons */
+}
+
+.edit-btn {
+  color: #4caf4fe5; /* Green color for edit button */
+}
+
+.delete-btn {
+  color: #e53835c7; /* Red color for delete button */
+}
+
+.save-btn {
+  color: #2196f3; /* Blue color for save button */
+}
+
+.cancel-btn {
+  color: #757575; /* Gray color for cancel button */
+}
+
+button:hover {
+  opacity: 0.8; /* Slightly transparent on hover for feedback */
+}
+.todo-item {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: white;
+  border: 1px solid #e2e8f0;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+.todo-item input {
+  flex: 1;
+  margin-right: 8px;
+}
+
+.button-group {
+  display: flex;
+  align-items: center;
+}
+#addbtn {
+  background-color: rgba(0, 0, 255, 0.598); /* green */
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  padding: 10px 16px;
+  border-radius: 5px;
+  font-weight: bold;
 }
