@@ -38,8 +38,8 @@ This app allows users to **add**, **edit**, and **delete** tasks.
 ### Installation 
 
 1. Clone the repo:
-git clone https://github.com/your-username/todo-list-app.git
-cd todo-list-app
+git clone https://github.com/finot05/Todo-tsx.git
+cd Todo-tsx
 
 2. Install dependencies:
 npm install
